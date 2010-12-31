@@ -1,4 +1,6 @@
 JobMan::Application.routes.draw do
+  resources :domains
+
   resources :jobs
 
   resources :users
